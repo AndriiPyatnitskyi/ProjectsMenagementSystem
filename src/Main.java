@@ -14,9 +14,11 @@ public class Main {
 
         System.out.println();
         System.out.println("Projects:");
+        Project resultProject;
         //тут итерируемся (тоесть пробегаем по всем елементам) по массиву и выводим его
         for(int i = 0; i < projects.length; i++){
-            System.out.println(projects[i].getName());
+            resultProject = projects[i];
+            System.out.println(resultProject.getName());
         }
 
     }
